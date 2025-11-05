@@ -55,7 +55,7 @@ A full-stack web application that uses AI to analyze resumes and provide detaile
 
 3.  **Set up environment variables**
 
-    # Create .env file in backend directory
+    Create .env file in backend directory
 
         echo "GEMINI_API_KEY=your_gemini_api_key_here" > .env
 
