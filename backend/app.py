@@ -1,4 +1,5 @@
 from flask import Flask, request, jsonify
+from flask_cors import CORS
 import os
 import io
 from PyPDF2 import PdfReader
@@ -8,6 +9,7 @@ import json
 import re
 
 app = Flask(__name__)
+CORS(app)
 
 # --- Configure Gemini ---
 GEMINI_KEY = os.getenv("GEMINI_API_KEY")
