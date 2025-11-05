@@ -63,5 +63,3 @@ A full-stack web application that uses AI to analyze resumes and provide detaile
 
     cd ../frontend
     npm install
-
-5.  **Frontend Setup**
